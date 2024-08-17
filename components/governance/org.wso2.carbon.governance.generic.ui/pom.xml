@@ -53,6 +53,9 @@
                             *;resolution:=optional
                         </Import-Package>
                         <Carbon-Component>UIBundle</Carbon-Component>
+                        <Provide-Capability>
+                            osgi.service;objectClass=org.wso2.carbon.ui.CarbonUIAuthenticator
+                        </Provide-Capability>
                     </instructions>
                 </configuration>
             </plugin>

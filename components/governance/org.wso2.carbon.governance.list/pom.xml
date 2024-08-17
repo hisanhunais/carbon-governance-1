@@ -53,7 +53,9 @@
                         <Export-Package>
                             org.wso2.carbon.governance.list.*,
                         </Export-Package>
-
+                        <Provide-Capability>
+                            osgi.service;objectClass=org.wso2.carbon.registry.extensions.services.RXTStoragePathService
+                        </Provide-Capability>
                     </instructions>
                 </configuration>
             </plugin>
